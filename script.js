@@ -47,7 +47,7 @@ colors.forEach(btn => {
 
 /* ORDER */
 orderBtn.onclick = () => {
-  const message = `Halo, saya mau order T-Shirt Oversized
+  const message = `Halo, saya mau order Grayscale T-Shirt Oversized
 Warna: ${selectedColor}
 Size: ${selectedSize}
 Jumlah: ${qty}`;
@@ -55,3 +55,4 @@ Jumlah: ${qty}`;
   const wa = `https://wa.me/6285607793319?text=${encodeURIComponent(message)}`;
   window.open(wa, "_blank");
 };
+
